@@ -52,41 +52,72 @@
 
 /* Number Seven */
 .container-7 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
 
 }
 
 /* Number Eight */
 .container-8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 /* Number Nine */
 .container-9 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
 
 }
 
 /* Number Ten */
 .container-10 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Number Eleven */
 .container-11 {
     display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: row;
 }
+
 
 /* Number Twelve */
 .container-12 {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
 
 }
 
 .nerf-12 {
     background-color: blue;
+    align-self: flex-end;
+    
     
 }
 
 /* Number Thirteen */
 .container-13 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center
 
 }
 
@@ -97,10 +128,17 @@
 
 /* Number Fourteen */
 .container-14 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
 .nerf-14 {
     background-color: blue;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-self:flex-start;
 
 }
